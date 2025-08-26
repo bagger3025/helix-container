@@ -1,5 +1,7 @@
 # Helix Container
 
+Just containing only for Rust and [Helix Editor](https://helix-editor.com/)
+
 ## Quick Start
 
 ```bash
