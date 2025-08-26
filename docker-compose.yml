@@ -1,0 +1,11 @@
+services:
+  app:
+    build:
+      context: ./
+      platforms:
+        - linux/amd64
+        - linux/arm64
+    container_name: app
+    init: true
+    tty: true
+    restart: always
