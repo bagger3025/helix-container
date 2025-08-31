@@ -24,3 +24,14 @@ chmod +x docker_buildx_command.sh
 ```
 
 This script file contains image push to `bagger3025/helix-container`
+
+## Installed
+
+- Rust
+  - rustup
+- C, C++
+  - clangd
+- Python
+  - uv
+  - black
+  - ruff
