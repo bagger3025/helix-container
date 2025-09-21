@@ -12,7 +12,7 @@ RUN (curl -LsSf https://astral.sh/uv/install.sh | sh) && \
   /root/.cargo/bin/rustup component add rust-analyzer
 
 RUN \
-  if [$TARGETARCH == "arm64"]; then \
+  if [ "$TARGETARCH" = "arm64" ]; then \
     wget https://github.com/helix-editor/helix/releases/download/25.07.1/helix-25.07.1-aarch64-linux.tar.xz -O /tmp/helix.tar.xz; \
     tar -xvf /tmp/helix.tar.xz -C /tmp; \
     mv /tmp/helix-25.07.1-aarch64-linux /tmp/helix; \
