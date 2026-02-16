@@ -2,6 +2,8 @@
 
 Just containing only for Rust and [Helix Editor](https://helix-editor.com/)
 
+Docker image is uploaded to [bagger3025/helix-container](https://hub.docker.com/r/bagger3025/helix-container)
+
 ## Quick Start
 
 ```bash
